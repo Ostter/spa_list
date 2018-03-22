@@ -39,7 +39,7 @@ class App extends React.Component {
     render() {
         return (
             <div className='App'>
-                <h2 className='App__header'>Note Color Map</h2>
+                <h2 className='App__header'>Color notes desk</h2>
                 <NoteEditor onNoteAdd={(e) => this.handleNoteAdd(e)} />
                 <NotesGrid notes={this.state.notes} onNoteDelete={(e) => this.handleNoteDelete(e)} />
             </div>
